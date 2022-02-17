@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    position: relative; 
+    margin: 0;
+    padding: 0;
+    background: #fde4cf;   
+    height: 200vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    height: 30px;
+    width: 30px;
+    
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+}
+
+h2{
+    font-size: 40px;
+    margin: 0;
+    
+}
+
+h3{
+    font-size: 25px;
+    margin: 0;
+    text-decoration-line: line-through;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #000 ;
+    height: 70px;
+    color: #fafcff;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    text-align: justify;    
+}
+
+button:hover{
+    cursor:pointer
+}
+
+.nav:visited{
+    color: #3a495a;
+}
+
+.nav:hover{
+    color: #fafcff;
+    font-size: 36px;
+}
+
+.pay:hover{
+    background: #caf0f8;
+    cursor: pointer;
+    font-size: 20px;
+}
+.counter:hover{
+    background-color: #0077b6;
+    border: solid 1px rgb(170, 170, 170);
+    padding: 40% 50% 0;
+    height: 31px;
+}
+
+.producto:hover{
+    border: solid 4px white;
+    border-radius: 15px;
+}
+
+#navi{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #a3c4f3;
+    position: fixed;
+    top: 0px;
+
+}
+
+#cont{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+
+#txlogo{
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 70px;
+    transform: translate(-130%, -110%);
+    background: -webkit-linear-gradient(rgb(50, 0, 233), rgb(0, 204, 255), rgb(223, 255, 39), rgb(255, 8, 0)  );
+    -webkit-background-clip: text;      
+    -webkit-text-stroke: 1px #000;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.head{
+    font-family: 'Spartan', sans-serif;
+    font-size: 25px;
+    width: auto;
+    height: 80vh;
+    background-color: #ffcfd2;
+    color: #0a9396;
+    padding: 6% 3%;
+}  
+
+.producto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:750px;
+    border: #000 solid 4px;
+    padding: 30px 50px 0;
+    background-color: #d8c3c4 ;
+    width: 340px;
+}
+
+.imagen{
+    width: 340px;
+    height: 480px;
+    background-color: white;
+    border:solid 5px #050505;
+}
+
+.PriceDescripcion{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+.precio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.fullproducto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15%;
+    margin:0;
+    width: 80%;
+    height: 200vh;
+    padding: 10px 5% 10px 5%;
+}
+
+.buttons{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 20px;
+    height: 50px;
+    width: 80%;
+    align-items: center;
+    justify-items: center;
+}
+
+.counter{
+    background-color: #76badf;
+    border: solid 1px black;
+    padding: 40% 50% 0;
+    height: 31px;
+}
+
+.pay{
+    display:grid;
+    grid-template-columns: 1fr;
+    margin: 20px 20px;
+    background: #8aa3a8;
+    height: 50px;
+    width: 80%;
+    align-items: center;
+    justify-items: center;
+}
+
+.promo{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.imagen2{
+    width: 640px;
+    height: 480px;
+    background-color: white;
+    border:solid 5px #050505;
+}
+
+.tp{
+    padding: 100px;
+    text-align: center;
+}
